@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header part starts*/
+ul{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color: bisque;
+    height: 90px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+.leftSide{
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    
+}
+.centerSide{
+    background-color: rgb(255, 255, 255);
+    flex: 2;
+    
+}
+.rightSide{
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+}
+.logo{
+    margin-top: 25px;
+    width: 122px;
+    padding-left: 10px;
+    padding-top: 23px;
+}
+.navList{
+    margin-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-around;
+}
+.navlist2{
+    font-size: 14px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#indianFlag{
+    width: 10px;
+}
+
+/* header part end */
+
+/* hero parts started */
+
+.heroVideo{
+    z-index: -1;
+    position: relative;
+    padding-top: 100px;
+}
+.heroText{
+    font-family: sans-serif;
+    font-size: 23px;
+    padding-top: 250px;
+    padding-left: 950px;
+    position: absolute;
+    text-align: center ;
+    color: white;
+    letter-spacing: 2px;
+}
+.heroButton{
+    background: #ffffff;
+    border: 2px solid #242424;
+    height: 25px;
+    min-height: 45px;
+    line-height: 1.25;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heroButton a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 45px;
+}
+.heroButton:hover{
+    background-color: #242424;
+}
+.heroButton a:hover{
+    color: #ffffff;
+}
+
+/* hero parts end */
+
+/* main parts start */
+.mainText{
+    padding-top: 40px;
+    font-family: sans-serif;
+    font-size: 23px;
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.first{
+    padding: 20px;
+}
+.second{
+    padding: 20px;
+}
+.firstImage{
+    position: relative;
+}
+.first:hover img{
+    filter: brightness(0.7);
+}
+.second:hover img{
+    filter: brightness(0.7);
+}
+.firstImgDes{
+    position: absolute;
+    right: 950px;
+    top: 1190px;
+}
+.firstImgDes u{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #ffffff;
+}
+.secondImage{
+    position: relative;
+}
+.secondImgDes{
+    position: absolute;
+    right: 300px;
+    top: 1190px;
+}
+.secondImgDes u{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #ffffff;
+}
+.firstImage1{
+    position: relative;
+}
+.firstImgDes1{
+    position: absolute;
+    right: 930px;
+    top: 1890px;
+}
+.firstImgDes1 u{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #ffffff;
+}
+.secondImage1{
+    position: relative;
+}
+.secondImgDes1{
+    position: absolute;
+    right: 300px;
+    top: 1890px;
+}
+.secondImgDes1 u{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #ffffff;
+}
+/* main parts end */
+
+/* super parts starts */
+.super{
+    display: flex;
+}
+.superFirst{
+    position: relative;
+}
+.superFirstSub{
+    padding: 75px;
+    align-items: center;
+    position: absolute;
+    top:10px;
+}
+.superText{
+    font-family: sans-serif;
+    font-size: large;
+    text-align: center;
+}
+.superButton{
+    margin-left: 150px;
+    height: 50px;
+    width: 170px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 15px;
+}
+.superButton:hover{
+    color: #ffffff;
+    background: #242424;
+}
+.superLink a{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 165px;
+    color: white;
+}
+
+/* super parts ends */
+
+/* read parts starts */
+.read{
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 21px;
+    text-align: left;
+}
+.readHr{
+    margin-top: 50px;
+}
+.readHead{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.25px;
+    font-weight: bold;
+}
+.footerHead{
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    font-weight: bold;
+}
+/* read parts ends */
+/* footer parts starts */
+
+footer{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 21px;
+
+}
+.footerFirst{
+    flex: 1;
+    padding: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 21px;
+
+}
+.footerSecond{
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 21px;
+
+}
+.footerThird{
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 21px;
+
+}
+.footerForth{
+    flex: 1;
+    padding: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 21px;
+}
+.footerList{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 21px;
+
+}
+.footerButton{
+    margin-left: 90px;
+    margin-top:20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 21px;
+}
+.footerText{
+    margin-top:20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 21px;
+
+}
+.footerParagraph{
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 21px;
+
+}
+.footerList2{
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 100px;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 21px;
+
+}
+.footerList3{
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 70px;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 21px;
+}
+/* footer ends  */
